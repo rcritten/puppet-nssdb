@@ -5,6 +5,6 @@ author 'Rob Crittenden <rcritten@redhat.com>'
 license 'Apache'
 summary 'NSS database Puppet Module'
 description 'This module manages NSS databases.'
-project_page 'https://github.com/rcritten/puppet-qpid'
+project_page 'https://github.com/rcritten/puppet-nssdb'
 
 dependency 'puppetlabs/stdlib', '>= 0.0.1'
