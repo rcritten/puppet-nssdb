@@ -21,8 +21,8 @@
 #   $password must be set
 #
 # Sample Usage:
-# 
-# secure::nssdb {'test':
+#
+# nssdb::create {'test':
 #    owner_id => 'qpidd',
 #    group_id => 'qpidd',
 #    password => 'test'}
