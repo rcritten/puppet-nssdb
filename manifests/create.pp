@@ -39,7 +39,7 @@ define nssdb::create (
   $canickname = 'CA',
   $catrust = 'CT,CT,'
 ) {
-  package { 'nss-tools': ensure => present }
+  ensure_packages(['nss-tools'])
 
   file {"${basedir}/${dbname}":
     ensure  => directory,
